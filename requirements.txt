@@ -1,0 +1,11 @@
+openai
+llama-index
+chromadb
+pymupdf
+pytesseract
+python-docx
+python-pptx
+pandas
+fastapi
+uvicorn
+streamlit

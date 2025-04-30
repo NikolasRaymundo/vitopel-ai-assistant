@@ -1,0 +1,6 @@
+__pycache__/
+.env
+*.log
+*.DS_Store
+data/vector_index/
+data/processed_texts/
