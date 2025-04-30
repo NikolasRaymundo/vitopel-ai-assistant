@@ -85,4 +85,43 @@ This project reflects:
 
 ➡️ Turn raw data into real-time, actionable insights.
 
+🧠 Potential Applications of the Vitopel AI Assistant
+🎯 Operational & Maintenance Support
+Assist operators and líderes de turno (shift leaders) during night and weekend shifts when engineers/coordinators are unavailable
+
+Reduce non-productive time (NPT) by quickly resolving common stoppages, alarms, and operational doubts
+
+Offer step-by-step guidance for standard procedures in real time
+
+🔧 Engineering & Troubleshooting Enhancement
+Support engineers in diagnosing complex failures, stoppages, and QC issues by retrieving relevant historical cases and recommended solutions from internal documentation
+
+Provide AI-generated troubleshooting suggestions backed by prior incident logs, reducing brainstorming cycles and guesswork
+
+📊 Predictive Maintenance Enablement (Future Phase)
+Integrate with machine parameter logs, lab QC data, and historical repair actions to detect anomalies or early warning signs
+
+Recommend preventive actions before downtime occurs, using embedded historical knowledge
+
+📘 Procedure Accessibility & Safety
+Translate and summarize technical documents for operators who struggle with lengthy PDFs and English-only manuals
+
+Ensure correct execution of procedures by making instructions understandable, accessible, and personalized to user roles
+
+🧠 Knowledge Retention & Upskilling
+Preserve tribal knowledge from senior engineers and make it searchable for newer team members
+
+Empower new hires to learn “as they go” through natural language Q&A, reducing training time
+
+🏭 Cross-Department Intelligence
+Identify recurring issues across Maintenance, QC, and Operations by semantically linking document data and logs
+
+Detect correlations between parameter shifts and end-of-line quality drops
+
+📋 Compliance & Traceability
+Ensure all AI answers are grounded in cited, version-controlled documents for audit readiness
+
+Help standardize knowledge access across shifts and roles in compliance-driven environments
+
+
 Let’s build together.
