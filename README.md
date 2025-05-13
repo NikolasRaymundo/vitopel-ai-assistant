@@ -81,7 +81,7 @@ This project reflects:
 
 ---
 
-## 🧠 Why This Matters (especially to TRACTIAN)
+## 🧠 Why This Matters 
 
 ➡️ Turn raw data into real-time, actionable insights.
 
