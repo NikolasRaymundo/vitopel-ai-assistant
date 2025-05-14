@@ -2,5 +2,17 @@ __pycache__/
 .env
 *.log
 *.DS_Store
+.Trashes
+
+# Intermediate data
 data/vector_index/
 data/processed_texts/
+data/temp_extracted/
+
+# Raw files (don't track input docs)
+data/raw_docs/*
+!data/raw_docs/placeholder.txt
+
+*.ipynb
+
+.vscode/
