@@ -8,14 +8,14 @@ This is a real-world project I'm leading at **Vitopel**, a BOPP film manufacture
 
 ## 🚧 Problem We're Solving
 
-Vitopel’s plant runs complex machinery (e.g. Bruckner lines, slitters, chillers). Over time, we’ve accumulated thousands of documents:
+Vitopel's plant runs complex machinery (e.g. Bruckner lines, slitters, chillers). Over time, we've accumulated thousands of documents:
 - Maintenance manuals
 - Quality control logs
 - SOPs
 - Excel reports
 - Scanned troubleshooting forms
 
-When a line breaks at 3am, operators don’t have time to dig through this. That’s where this assistant comes in.
+When a line breaks at 3am, operators don't have time to dig through this. That's where this assistant comes in.
 
 ---
 
@@ -24,7 +24,7 @@ When a line breaks at 3am, operators don’t have time to dig through this. That
 The assistant:
 - Ingests technical documents of any type (PDF, Excel, Word, scanned images)
 - Extracts clean, searchable text (including OCR)
-- Classifies and chunks content using GPT-4
+- Classifies and chunks content using Google Gemini API
 - Stores it in a semantic vector database
 - Lets users ask questions in natural language (English or Portuguese)
 - Responds with **only** answers explicitly found in the documents, with:
@@ -40,7 +40,7 @@ The assistant:
 | Component      | Tools / Libraries                      |
 |----------------|-----------------------------------------|
 | **Ingestion**  | `pymupdf`, `pytesseract`, `python-docx`, `pandas` |
-| **Classification** | `openai` GPT-4 API                    |
+| **Classification** | Google Gemini API                    |
 | **Vector Search**  | `llama-index` + `chromadb`            |
 | **Backend**    | `FastAPI`                               |
 | **Frontend**   | `Streamlit` (MVP), planned React + PDF.js |
@@ -72,7 +72,7 @@ The assistant:
 
 ## 👋 Who Am I?
 
-I'm [**Nikolas Raymundo**](https://www.linkedin.com/in/nikolas-cavalcante-raymundo/), a chemical engineer with field experience at Baker Hughes and current project lead at Vitopel. I’m pivoting into AI-powered operational systems, and this is the first of many.
+I'm [**Nikolas Raymundo**](https://www.linkedin.com/in/nikolas-cavalcante-raymundo/), a chemical engineer with field experience at Baker Hughes and current project lead at Vitopel. I'm pivoting into AI-powered operational systems, and this is the first of many.
 
 This project reflects:
 - Real industrial complexity
@@ -111,7 +111,7 @@ Ensure correct execution of procedures by making instructions understandable, ac
 🧠 Knowledge Retention & Upskilling
 Preserve tribal knowledge from senior engineers and make it searchable for newer team members
 
-Empower new hires to learn “as they go” through natural language Q&A, reducing training time
+Empower new hires to learn "as they go" through natural language Q&A, reducing training time
 
 🏭 Cross-Department Intelligence
 Identify recurring issues across Maintenance, QC, and Operations by semantically linking document data and logs
@@ -124,4 +124,4 @@ Ensure all AI answers are grounded in cited, version-controlled documents for au
 Help standardize knowledge access across shifts and roles in compliance-driven environments
 
 
-Let’s build together.
+Let's build together.

@@ -8,6 +8,14 @@ __pycache__/
 data/vector_index/
 data/processed_texts/
 data/temp_extracted/
+data/classified_texts_p1/
+data/classified_texts_p1_reviewed/
+data/review_exports/
+data/document_chunks/
+
+# Manifest files
+data/ingestion_manifest.json
+data/classification_p1_manifest.json
 
 # Raw files (don't track input docs)
 data/raw_docs/*
@@ -16,3 +24,5 @@ data/raw_docs/*
 *.ipynb
 
 .vscode/
+
+.venv/

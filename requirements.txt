@@ -1,15 +1,22 @@
-# === Core dependencies for ingest_docs.py ===
-pymupdf            # PDF parsing and OCR fallback
-pytesseract        # OCR for images and scanned PDFs
-pillow             # Image processing (used by pytesseract)
-python-docx        # Word document parser
-python-pptx        # PowerPoint parser
-pandas             # Excel/CSV parser
+# === Core dependencies for ingest_docs.py (Phase 1) ===
+pymupdf
+pytesseract
+Pillow
+python-docx
+python-pptx
+pandas
+openpyxl # For .xlsx reading with pandas
+pyheif
+pillow-heif
 
-# === Future dependencies for GPT classification, indexing, and API ===
-openai             # For GPT-4 API classification and chunk labeling
-llama-index        # Vector-based semantic search (LlamaIndex framework)
-chromadb           # Vector database for document chunks (replaceable by Pinecone or Weaviate)
-fastapi            # Backend API (Phase 4)
-uvicorn            # FastAPI server runner
-streamlit          # MVP web frontend (optional or placeholder for React)
+# === Dependencies for classify_docs_p1.py (Phase 2 - Google) ===
+python-dotenv # For loading .env files
+google-generativeai # For Gemini API
+
+# === Future dependencies (can be commented out/added later) ===
+# openai # For OpenAI API
+# llama-index
+# chromadb
+# fastapi
+# uvicorn
+# streamlit
